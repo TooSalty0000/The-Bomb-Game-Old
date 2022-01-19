@@ -3567,7 +3567,7 @@ Transform:
   m_Children:
   - {fileID: 535951492}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &379105612
 PrefabInstance:
@@ -6958,14 +6958,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 692423963}
-  m_LocalRotation: {x: 0.0003587175, y: -0.9995719, z: 0.025804669, w: 0.013786633}
-  m_LocalPosition: {x: 46.70917, y: 3.1409771, z: -1.2917604}
+  m_LocalRotation: {x: 0, y: 0.8548303, z: -0.5189077, w: 0}
+  m_LocalPosition: {x: 46.718, y: 2.6234, z: -9.9432}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 541399058}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 62.518, y: 180, z: 0}
 --- !u!114 &692423965
 MonoBehaviour:
@@ -8466,6 +8466,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000014133883218, guid: 60cf315f432990a41b67cef3d41a92f4, type: 3}
   m_PrefabInstance: {fileID: 811477824}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &814242253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 814242255}
+  - component: {fileID: 814242254}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &814242254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814242253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d002fe4cd6ddc74cbfb5ddd956db824, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 692423967}
+--- !u!4 &814242255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814242253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 47.028057, y: 1.7116694, z: -10.693983}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &816375028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10258,7 +10303,7 @@ Transform:
   - {fileID: 993695286}
   - {fileID: 398690115}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 28.2, y: 0, z: 0}
 --- !u!1001 &961332317
 PrefabInstance:
@@ -11273,7 +11318,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5b007320f8fad3647b616e991d9412e7, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b007320f8fad3647b616e991d9412e7, type: 3}
       propertyPath: m_LocalScale.x
@@ -13836,7 +13881,7 @@ GameObject:
   - component: {fileID: 1372689288}
   - component: {fileID: 1372689287}
   m_Layer: 0
-  m_Name: CM vcam1
+  m_Name: Bomb Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13894,7 +13939,7 @@ Transform:
   m_Children:
   - {fileID: 1952746796}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 62.518, y: 180, z: 0}
 --- !u!1001 &1390640263
 PrefabInstance:
@@ -15925,7 +15970,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1551364153
 MonoBehaviour:
@@ -18120,7 +18165,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &1775227661
 MonoBehaviour:
@@ -21506,7 +21551,7 @@ GameObject:
   - component: {fileID: 2046218410}
   - component: {fileID: 2046218409}
   m_Layer: 0
-  m_Name: CM vcam2
+  m_Name: Menu Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21519,7 +21564,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2046218408}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
   m_Name: 
@@ -21564,7 +21609,7 @@ Transform:
   m_Children:
   - {fileID: 482159505}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2048768234
 PrefabInstance:
@@ -22924,18 +22969,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1968314641811549545, guid: 61c40ddc986ab484c9c0e1f0049a3c07, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1968314641811549545, guid: 61c40ddc986ab484c9c0e1f0049a3c07, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1968314641811549545, guid: 61c40ddc986ab484c9c0e1f0049a3c07, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1968314641811549545, guid: 61c40ddc986ab484c9c0e1f0049a3c07, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -22975,9 +23008,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2208430998159844236, guid: 61c40ddc986ab484c9c0e1f0049a3c07, type: 3}
+      propertyPath: m_Name
+      value: Erase
+      objectReference: {fileID: 0}
     - target: {fileID: 4630865867741902287, guid: 61c40ddc986ab484c9c0e1f0049a3c07, type: 3}
       propertyPath: m_Name
       value: Calculator Module
+      objectReference: {fileID: 0}
+    - target: {fileID: 5661266870038578180, guid: 61c40ddc986ab484c9c0e1f0049a3c07, type: 3}
+      propertyPath: keyValue
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61c40ddc986ab484c9c0e1f0049a3c07, type: 3}

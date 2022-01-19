@@ -38,6 +38,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\Scripts\Keypad.cs" />
+     <Compile Include="Assets\Scripts\Interactable.cs" />
+     <Compile Include="Assets\ClickManager.cs" />
+     <Compile Include="Assets\CalculatorModule.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
