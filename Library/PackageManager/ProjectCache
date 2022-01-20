@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637780049304122575
-    m_Hash: 1004972177
+      ticks: 637782611051304848
+    m_Hash: 2435544349
   m_LockFileStatus:
     m_FilePath: D:/Var Code/Unity Projects/The Bomb Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637780050612838225
-    m_Hash: 745317446
+      ticks: 637782611051364788
+    m_Hash: 4225410930
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -100,10 +100,12 @@ m_ResolvedPackages:
     - 2.8.3
     - 2.8.4
     - 2.9.0-pre.1
+    - 2.9.0-pre.6
     compatible:
     - 2.8.3
     - 2.8.4
     - 2.9.0-pre.1
+    - 2.9.0-pre.6
     verified: 2.8.4
   dependencies: []
   resolvedDependencies: []
@@ -150,12 +152,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.8.3
     nextVersion: 
-- packageId: com.unity.collab-proxy@1.15.7
+- packageId: com.unity.collab-proxy@1.15.9
   testable: 0
   isDirectDependency: 1
-  version: 1.15.7
+  version: 1.15.9
   source: 1
-  resolvedPath: D:\Var Code\Unity Projects\The Bomb Game\Library\PackageCache\com.unity.collab-proxy@1.15.7
+  resolvedPath: D:\Var Code\Unity Projects\The Bomb Game\Library\PackageCache\com.unity.collab-proxy@1.15.9
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -203,9 +205,11 @@ m_ResolvedPackages:
     - 1.14.1
     - 1.14.4
     - 1.14.7
+    - 1.14.9
     - 1.15.1
     - 1.15.4
     - 1.15.7
+    - 1.15.9
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -218,6 +222,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     compatible:
     - 1.15.7
+    - 1.15.9
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -228,7 +233,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.15.7
+    verified: 1.15.9
   dependencies:
   - name: com.unity.nuget.newtonsoft-json
     version: 2.0.0
@@ -264,13 +269,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637744672890000000
+  datePublishedTicks: 637781163240000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: d208594e5483cdf10d303b6ee17df4d6bf58d3de
+    revision: 4a6e96cf22abd669fdeece7b16e005eb033b83ad
     path: 
   unityLifecycle:
     version: 1.15.7
@@ -323,9 +328,11 @@ m_ResolvedPackages:
     - 3.0.6
     - 3.0.7
     - 3.0.9
+    - 3.0.10
     compatible:
     - 3.0.9
-    verified: 3.0.9
+    - 3.0.10
+    verified: 3.0.10
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -665,9 +672,11 @@ m_ResolvedPackages:
     - 1.1.27
     - 1.1.29
     - 1.1.30
+    - 2.0.1-pre.12
     compatible:
     - 1.1.29
     - 1.1.30
+    - 2.0.1-pre.12
     verified: 1.1.30
   dependencies:
   - name: com.unity.ext.nunit
@@ -2834,8 +2843,10 @@ m_ResolvedPackages:
     - 1.0.0
     - 1.0.5
     - 1.0.6
+    - 2.0.2
     compatible:
     - 1.0.6
+    - 2.0.2
     verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
@@ -3053,14 +3064,16 @@ m_ResolvedPackages:
     - 1.6.1
     - 1.6.2
     - 1.6.3
+    - 1.6.4
     - 1.7.0-pre.1
     compatible:
     - 1.6.0
     - 1.6.1
     - 1.6.2
     - 1.6.3
+    - 1.6.4
     - 1.7.0-pre.1
-    verified: 1.6.3
+    verified: 1.6.4
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
@@ -3508,8 +3521,20 @@ m_ResolvedPackages:
   versions:
     all:
     - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
     compatible:
     - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
     verified: 1.0.1
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -3527,7 +3552,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637604883250000000
   documentationUrl: 
   hasRepository: 1
   repository:

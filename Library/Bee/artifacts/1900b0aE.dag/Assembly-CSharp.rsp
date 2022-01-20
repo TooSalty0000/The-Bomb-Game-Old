@@ -354,6 +354,7 @@
 "Assets/ClickManager.cs"
 "Assets/Scripts/Interactable.cs"
 "Assets/Scripts/Keypad.cs"
+"Assets/Scripts/Module.cs"
 "Assets/Scripts/SimpleCameraController.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Linq;
 
-public class CalculatorModule : MonoBehaviour
+public class CalculatorModule : Module
 {
+    [SerializeField]
+    private Animator animator;
     [SerializeField]
     public TextMeshPro[] digits;
     public int problemDigit;
@@ -26,7 +29,6 @@ public class CalculatorModule : MonoBehaviour
         displayProblem();
         // convert int array into a single number, index 0 being the one's digit
         problemDigit = (int)(originalDigits.z + (originalDigits.y * 10) + (originalDigits.x * 100));
-
     }
 
     // Update is called once per frame
@@ -57,10 +59,31 @@ public class CalculatorModule : MonoBehaviour
     }
 
     private void checkAnswer() {
-        // do nothing yet
+        int[] oDigits = new int[] { (int)originalDigits.z, (int)originalDigits.y, (int)originalDigits.x };
+        int eDigits = (int)(enteredDigits[0] + (enteredDigits[1] * 10) + (enteredDigits[2] * 100));
+        if (oDigits.All(x => x % 2 == 0)) {
+            //ones * tens - hundreds
+            if (eDigits == oDigits[0] * oDigits[1] - oDigits[2]) {
+                solved = true;
+            } else {
+                solved = false;
+            }
+        } else if (oDigits.Count(x => x % 2 == 1) == 1) {
+            //ones + tens + hundreds
+            if (eDigits == oDigits[0] + oDigits[1] + oDigits[2]) {
+                solved = true;
+            } else {
+                solved = false;
+            }
+        }
     }
 
     public void enterDigit(int value) {
+        // if value is between -1 and 9
+        if (value >= -1 && value <= 9) {
+            animator.ResetTrigger(value.ToString());
+            animator.SetTrigger(value.ToString());
+        }
         if (value == -1) {
             // backspace
             if (enteredDigits.Count > 0) {
